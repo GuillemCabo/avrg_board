@@ -1,0 +1,3 @@
+[submodule "board/avrg_board/libs/gsd-kicad-libs"]
+	path = board/avrg_board/libs/gsd-kicad-libs
+	url = git@github.com:gregdavill/gsd-kicad-libs.git
