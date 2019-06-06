@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:avrg_board-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -13,4 +14,123 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 1 1 5CF8EB97
+P 1400 700
+F 0 "U?" H 2530 -397 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 2530 -503 60  0000 L CNN
+F 2 "" H 1400 700 50  0001 C CNN
+F 3 "" H 1400 700 50  0001 C CNN
+	1    1400 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 2 1 5CF973E8
+P 4200 700
+F 0 "U?" H 5330 -797 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 5330 -903 60  0000 L CNN
+F 2 "" H 4200 700 50  0001 C CNN
+F 3 "" H 4200 700 50  0001 C CNN
+	2    4200 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 3 1 5CFA0EBA
+P 7300 700
+F 0 "U?" H 8430 -797 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 8430 -903 60  0000 L CNN
+F 2 "" H 7300 700 50  0001 C CNN
+F 3 "" H 7300 700 50  0001 C CNN
+	3    7300 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 4 1 5CFA736B
+P 9800 700
+F 0 "U?" H 10700 -2700 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 10200 -2600 60  0000 L CNN
+F 2 "" H 9800 700 50  0001 C CNN
+F 3 "" H 9800 700 50  0001 C CNN
+	4    9800 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 5 1 5CFB435A
+P 1300 4100
+F 0 "U?" H 2630 2603 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 2630 2497 60  0000 L CNN
+F 2 "" H 1300 4100 50  0001 C CNN
+F 3 "" H 1300 4100 50  0001 C CNN
+	5    1300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 6 1 5CFB96E3
+P 4200 4100
+F 0 "U?" H 5330 2603 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 5330 2497 60  0000 L CNN
+F 2 "" H 4200 4100 50  0001 C CNN
+F 3 "" H 4200 4100 50  0001 C CNN
+	6    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 7 1 5CFC0CEC
+P 6900 4100
+F 0 "U?" H 8730 3003 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 8730 2897 60  0000 L CNN
+F 2 "" H 6900 4100 50  0001 C CNN
+F 3 "" H 6900 4100 50  0001 C CNN
+	7    6900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:ECP5U25-BG381 U?
+U 8 1 5CFC96B5
+P 10300 5000
+F 0 "U?" H 10500 5300 60  0000 L CNN
+F 1 "ECP5U25-BG381" H 10400 5200 60  0000 L CNN
+F 2 "" H 10300 5000 50  0001 C CNN
+F 3 "" H 10300 5000 50  0001 C CNN
+	8    10300 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 600  3700 0    118  ~ 0
+Only A and B have true LVDS.\nEmulated need termination resistors.\nTN1262\n
+Text GLabel 10300 5200 0    50   Input ~ 0
+VccIO_0
+Text GLabel 10300 5300 0    50   Input ~ 0
+VccIO_1
+Text GLabel 10300 5400 0    50   Input ~ 0
+VccIO_2
+Text GLabel 10300 5500 0    50   Input ~ 0
+VccIO_3
+Text GLabel 10300 5600 0    50   Input ~ 0
+VccIO_6
+Text GLabel 10300 5700 0    50   Input ~ 0
+VccIO_7
+Text GLabel 10300 5800 0    50   Input ~ 0
+VccIO_8
+$Comp
+L power:GND #PWR?
+U 1 1 5D6150E1
+P 10300 5000
+F 0 "#PWR?" H 10300 4750 50  0001 C CNN
+F 1 "GND" V 10305 4872 50  0000 R CNN
+F 2 "" H 10300 5000 50  0001 C CNN
+F 3 "" H 10300 5000 50  0001 C CNN
+	1    10300 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 10300 5900 0    50   Input ~ 0
+Vcc
+Text GLabel 10300 5100 0    50   Input ~ 0
+VccAux
 $EndSCHEMATC
